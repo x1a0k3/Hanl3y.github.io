@@ -6,14 +6,14 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://x1a0k3.github.io">
-  <title>njctf2017 | hanley&#39;s blog</title>
+  <title>njctf2017 | x1a0&#39;s blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="WebLogin一个数据库截断导致的问题，注册时注册超长字符串，后面一截会被截断，于是注册admin + 一堆空格  + a直接admin登录即可。试了很久的\00填充发现不行，而空格可以。数据库会忽略掉字符串后面的空格。 Text Wall首先抓包发现cookie中有list字段，前面是一段sha1加密的40位密文，后面是一串序列化的字符串   通过扫目录发现有.index.php.swo，文件">
 <meta name="keywords" content="web,writeup">
 <meta property="og:type" content="article">
 <meta property="og:title" content="njctf2017">
 <meta property="og:url" content="https://x1a0k3.github.io/2017/03/28/njctf2017/index.html">
-<meta property="og:site_name" content="hanley&#39;s blog">
+<meta property="og:site_name" content="x1a0&#39;s blog">
 <meta property="og:description" content="WebLogin一个数据库截断导致的问题，注册时注册超长字符串，后面一截会被截断，于是注册admin + 一堆空格  + a直接admin登录即可。试了很久的\00填充发现不行，而空格可以。数据库会忽略掉字符串后面的空格。 Text Wall首先抓包发现cookie中有list字段，前面是一段sha1加密的40位密文，后面是一串序列化的字符串   通过扫目录发现有.index.php.swo，文件">
 <meta property="og:image" content="https://x1a0k3.github.io/2017/03/28/njctf2017/Textwall_1.png">
 <meta property="og:image" content="https://x1a0k3.github.io/2017/03/28/njctf2017/Textwall_2.png">
@@ -66,7 +66,7 @@
 			<img src="/images/avatar.jpg" class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author"><a href="/">hanley</a></h1>
+		  <h1 class="header-author"><a href="/">x1a0</a></h1>
 		</hgroup>
 		
 
@@ -124,7 +124,7 @@
 				<img src="/images/avatar.jpg" class="js-avatar">
 			</div>
 			<hgroup>
-			  <h1 class="header-author js-header-author">hanley</h1>
+			  <h1 class="header-author js-header-author">x1a0</h1>
 			</hgroup>
 			
 			
@@ -382,7 +382,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2018 hanley
+    		&copy; 2018 x1a0
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
